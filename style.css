@@ -84,3 +84,10 @@ footer { padding: 2rem 2.5rem; color: var(--muted); font-size: .95rem; }
 }
 @media print { .side, .topbar, .progress { display: none; } main, footer { margin: 0; } section { break-inside: avoid-page; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .side { transition: none; } }
+
+.tabel { overflow-x: auto; margin: 1rem 0; }
+table { border-collapse: collapse; width: 100%; background: var(--surface); font-size: .98rem; }
+caption { text-align: left; font: 700 1.2rem var(--head); padding-bottom: .4rem; }
+th, td { border: 1px solid var(--line); padding: .5rem .7rem; text-align: left; vertical-align: top; }
+th { background: var(--court); color: #fff; }
+li { margin-bottom: .3rem; max-width: 68ch; }
